@@ -1,0 +1,10 @@
+The requirements for this project are:
+Anaconda (way simpler to install LLVMlite through conda than pip)
+LLVMlite
+(Run this command on the terminal after installing conda or you can even run it on the terminal of the conda)
+$ conda install --channel=numba llvmlite
+(Run this command on the terminal after installing conda or you can even run it on the terminal of the conda)
+RPLY (same as PLY but with a better API)
+$ conda install -c conda-forge rply
+LLC (LLVM static compiler)
+GCC (or other linking tool)
